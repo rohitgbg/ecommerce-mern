@@ -1,6 +1,7 @@
+import { Home } from './pages';
+
 const App = (): JSX.Element => {
-  const m = <div>hello</div>;
-  return <div>{m}</div>;
+  return <Home />;
 };
 
 export default App;

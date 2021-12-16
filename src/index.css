@@ -1,0 +1,7 @@
+:root {
+    --white: #ffffff;
+    --lightgray: #d3d3d3
+}
+
+html { font-size: 62.5%; }
+body { font-size: 1.4rem; }

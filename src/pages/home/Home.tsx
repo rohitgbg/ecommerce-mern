@@ -1,5 +1,7 @@
+import { Navbar } from '../../components';
+
 const Home = (): JSX.Element => {
-  return <div>Home</div>;
+  return <Navbar />;
 };
 
 export default Home;
