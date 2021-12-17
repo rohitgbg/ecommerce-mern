@@ -1,14 +1,17 @@
-import React from 'react';
 import {
   Center,
   Container,
   Input,
   Language,
   Left,
+  Logo,
   Right,
   SearchContainer,
   StyledSearchIcon,
-  Wrapper
+  Wrapper,
+  MenuItem,
+  StyledBadgeIcon,
+  StyledShopingCartIcon
 } from './Navbar.style';
 
 const Navbar = (): JSX.Element => {
@@ -22,8 +25,18 @@ const Navbar = (): JSX.Element => {
             <StyledSearchIcon />
           </SearchContainer>
         </Left>
-        <Center>Center</Center>
-        <Right>Right</Right>
+        <Center>
+          <Logo>RoKart</Logo>
+        </Center>
+        <Right>
+          <MenuItem>Register</MenuItem>
+          <MenuItem>Sign In</MenuItem>
+          <MenuItem>
+            <StyledBadgeIcon badgeContent={4} color="primary">
+              <StyledShopingCartIcon />
+            </StyledBadgeIcon>
+          </MenuItem>
+        </Right>
       </Wrapper>
     </Container>
   );
