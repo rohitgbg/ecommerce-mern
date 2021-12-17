@@ -1,7 +1,13 @@
-import { Navbar } from '../../components';
+import { Announcement, Navbar, Slider } from '../../components';
 
 const Home = (): JSX.Element => {
-  return <Navbar />;
+  return (
+    <>
+      <Announcement />
+      <Navbar />
+      <Slider />
+    </>
+  );
 };
 
 export default Home;

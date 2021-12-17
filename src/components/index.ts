@@ -1,3 +1,5 @@
+import Announcement from './announcement';
 import Navbar from './navbar';
+import Slider from './slider';
 
-export { Navbar };
+export { Navbar, Announcement, Slider };

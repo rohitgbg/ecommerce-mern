@@ -1,7 +1,7 @@
-import React from 'react';
+import { Container } from './Announcement.style';
 
-const Announcement = () => {
-  return <div>Announcement</div>;
+const Announcement = (): JSX.Element => {
+  return <Container>Super Deal! Free Shipping on Orders Over ₹500</Container>;
 };
 
 export default Announcement;
