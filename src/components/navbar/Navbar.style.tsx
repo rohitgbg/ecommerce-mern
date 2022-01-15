@@ -64,6 +64,7 @@ export const MenuItem = styled.div`
 `;
 
 export const StyledBadgeIcon = styled(Badge)``;
+
 export const StyledShopingCartIcon = styled(ShoppingCartOutlined)`
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
 `;

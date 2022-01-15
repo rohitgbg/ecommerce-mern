@@ -1,8 +1,10 @@
 :root {
   --white: #ffffff;
+  --white-1: #fff7f7;
   --lightgray: #d3d3d3;
   --gray: #808080;
   --teal: #008080;
+  --coral: #ff7f50;
 }
 
 html {
