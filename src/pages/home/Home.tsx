@@ -1,4 +1,4 @@
-import { Announcement, Navbar, Slider } from '../../components';
+import { Announcement, Categories, Navbar, Slider } from '../../components';
 
 const Home = (): JSX.Element => {
   return (
@@ -6,6 +6,7 @@ const Home = (): JSX.Element => {
       <Announcement />
       <Navbar />
       <Slider />
+      <Categories />
     </>
   );
 };

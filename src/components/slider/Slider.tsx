@@ -13,6 +13,7 @@ import {
 
 const Slider = (): JSX.Element => {
   const [slideIndex, setSlideIndex] = useState(0);
+
   const handleSlideClick = (direction: string): void => {
     if (direction === 'left') {
       setSlideIndex(slideIndex > 0 ? slideIndex - 1 : sliderItems.length - 1);

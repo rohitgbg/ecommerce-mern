@@ -6,3 +6,8 @@ export interface ISliderItem {
     bg: string,
 }
 
+export interface Category  {
+    id: number;
+    img: string;
+    title: string;
+}
