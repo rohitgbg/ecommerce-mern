@@ -1,11 +1,18 @@
-import React from 'react';
 import { Category } from '../../interface';
-import { Container } from './CategoryItem.style';
+import { Container, Image, Info, Title } from './CategoryItem.style';
+
 interface ICategoryItem {
   item: Category;
 }
-const CategoryItem = ({ item }: ICategoryItem) => {
-  return <Container>CategoryItem {item.id}</Container>;
+const CategoryItem = ({ item }: ICategoryItem): JSX.Element => {
+  return (
+    <Container>
+      <Image src={item.img} />
+      <Info>
+        <Title>{item.title}</Title>
+      </Info>
+    </Container>
+  );
 };
 
 export default CategoryItem;

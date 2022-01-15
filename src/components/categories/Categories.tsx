@@ -3,11 +3,11 @@ import { categories } from '../../data';
 import CategoryItem from '../category-item';
 import { Container } from './Categories.style';
 
-const Categories = () => {
+const Categories = (): JSX.Element => {
   return (
     <Container>
       {categories.map((item) => (
-        <CategoryItem item={item} />
+        <CategoryItem key={item.id} item={item} />
       ))}
     </Container>
   );

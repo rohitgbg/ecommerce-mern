@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . ",
-    "lint:fix": "eslint . --fix",
+    "lint:fix": "eslint --fix --ext .js,.tsx.ts .",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "browserslist": {
